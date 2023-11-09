@@ -120,7 +120,7 @@ class _ProductGridViewScreenState extends State<ProductGridViewScreen> {
                                         OutlinedButton(
                                             onPressed: () {
                                               GotoUpdate(
-                                                  context, ProductList[index]);
+                                                  context, ProductList[index]['_id']);
                                             },
                                             child: const Icon(
                                               CupertinoIcons
